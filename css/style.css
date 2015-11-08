@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-default{
+	margin-bottom: 0px;
+	background: #fff;
+}
+
+#landing{
+	background: url('../images/background.jpg');
+	padding-bottom: 100px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.form-container{
+	padding: 20px 0px;
+	background: rgba(0,0,0,.3);
+	
+	border-top: 3px solid #fcc000;
+}
+
+
+.tab{
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	margin-top: 20px;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	background: rgba(0,0,0,.3);
+	border-radius: 3px 3px 0px 0px;
+}
+
+
+.box-heading{
+	color: #fff;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+
+.input-container{
+	padding: 5px 15px;
+}
+
+
+.input-container .form-control:focus{
+	border: 2px solid #fcc000;
+}
+
+.form-label{
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+.icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	margin-top: 22px;
+	padding-top: 5px;
+}
+
+
+
+#search{
+	padding: 8px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	background: #cb3904;
+	border-radius: 2px;
+	cursor: pointer;
+}
