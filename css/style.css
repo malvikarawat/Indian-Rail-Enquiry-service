@@ -16,7 +16,7 @@ body{
 }
 
 
-.form-container{
+.form-container, #trn-between{
 	padding: 20px 0px;
 	background: rgba(0,0,0,.3);
 	
@@ -60,6 +60,20 @@ body{
 }
 
 
+#srcStn-drop, #destStn-drop{
+	position: absolute;
+	z-index: 2;
+	background: #fff;
+	width: 91%;
+	max-height: 250px;
+	overflow-y: scroll; 
+}
+
+.Stn{
+	padding: 3px 0px 3px 10px;
+}
+
+
 .icon{
 	width: 30px;
 	height: 30px;
@@ -82,4 +96,11 @@ body{
 	background: #cb3904;
 	border-radius: 2px;
 	cursor: pointer;
+}
+
+
+.trainList{
+	padding: 7px 0px 7px 20px;
+	color: #fff;
+	border-bottom: 1px solid #fcc000;
 }

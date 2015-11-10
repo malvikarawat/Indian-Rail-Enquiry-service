@@ -31,26 +31,32 @@
 
               <div class="col-xs-12 col-md-5 input-container">
                 <div class="form-label">From</div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="srcStn">
+                <div id="srcStn-drop">
+                  
+                </div>
               </div>
 
               <div class="col-xs-12 col-md-1"><div class="icon"><i class="glyphicon glyphicon-arrow-right"></i></div></div>
 
               <div class="col-xs-12 col-md-5 input-container">
                 <div class="form-label">to</div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="destStn">
+                <div id="destStn-drop">
+                  
+                </div>
               </div>
 
               <div class="col-xs-12 col-md-5 input-container">
                 <div class="form-label">departure</div>
-                <input type="date" class="form-control" min="<?=date('Y-m-d');?>">
+                <input type="date" class="form-control" min="<?=date('Y-m-d');?>" id="date_">
               </div>
 
               <div class="col-xs-12 col-md-1">&nbsp;</div>
 
               <div class="col-xs-12 col-md-5 input-container">
                 <div class="form-label">class</div>
-                <select class="form-control">
+                <select class="form-control" id="class">
                   <option>Sleeper Class</option>
                   <option>Third AC</option>
                   <option>Second AC</option>
@@ -63,7 +69,7 @@
 
               <div class="col-xs-12 col-md-5 input-container">
                 <div class="form-label">email (MANDATORY)</div>
-                <input type="text" class="form-control" >
+                <input type="text" class="form-control" id="email">
               </div>
 
               <div class="col-xs-12 col-md-12" style="border-top: 1px solid lightgray;margin-top: 40px;padding-bottom: 20px;"></div>
@@ -75,9 +81,21 @@
 
             </div>
           </div>
+
+          <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-12">
+              <div class="tab">Train Between Stations</div>
+            </div>
+            <div class="col-xs-12 col-md-12" style="paddind:0px;" id="trn-between">
+
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
+
+
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
