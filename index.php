@@ -21,8 +21,11 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-8">
-            <div class="col-xs-12 col-md-1">
-              <div class="tab">Train</div>
+            <div class="col-xs-4 col-md-2">
+              <div class="tab" id="list">Train</div>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <a href="mapView.php"><div class="tab" id="mapTab">Train On Map</div></a>
             </div>
             <div class="col-xs-12 col-md-12 form-container">
               <div class="col-xs-12 col-md-12">
